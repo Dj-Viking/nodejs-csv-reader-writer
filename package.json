@@ -4,8 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "read": "node readcsv.js",
+    "write": "node writecsv.js",
+    "rw": "node readoldwritenew.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.15.1",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "fakerator": "^0.3.2",
+    "node-csv": "^0.1.2",
+    "random-email": "^1.0.3",
+    "random-name": "^0.1.2",
+    "uuid": "^8.3.2"
+  }
 }
